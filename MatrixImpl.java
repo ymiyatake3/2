@@ -53,17 +53,17 @@ class MatrixImpl {
     }
 
 
-    // Calculate 100 size * 100 times and write down each execution time to a file.
+    // Calculate 100 size * 10 times and write down each execution time to a file.
     public void run() {
 
         try {
-            File file = new File("data.txt");
+            File file = new File("data_.txt");
 
             if (checkBeforeWriteFile(file)) {
                 BufferedWriter bw = new BufferedWriter(new FileWriter(file));
 
-                // Change N from 100 to 1000 with step 100.
-                for (int n = 100; n <= 1000; n += 100) {
+                // Change N from 100 to 1000 with step 10.
+                for (int n = 100; n <= 1000; n += 10) {
 
                     double[][] a = new double[n][n]; // Matrix A
                     double[][] b = new double[n][n]; // Matrix B
@@ -79,8 +79,8 @@ class MatrixImpl {
                         }
                     }
 
-                    // Experiment 100 times for each N.
-                    for (int loop = 0; loop < 100; loop++) {
+                    // Experiment 10 times for each N.
+                    for (int loop = 0; loop < 10; loop++) {
 
                         long begin = System.currentTimeMillis();
 
