@@ -19,5 +19,6 @@
     - `set xlabel 'matrix size'`
     - `set ylabel 'execution time'`
     - `plot "data.txt" using 1:2 with points`
+    ![graph](https://user-images.githubusercontent.com/34668695/58796707-fd736700-8638-11e9-8811-690da2e14a03.png)
     - `replot 0.000000015*((x - 100)**3)`
   
