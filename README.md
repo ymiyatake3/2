@@ -20,5 +20,7 @@
     - `set ylabel 'execution time'`
     - `plot "data.txt" using 1:2 with points`
     ![graph](https://user-images.githubusercontent.com/34668695/58796707-fd736700-8638-11e9-8811-690da2e14a03.png)
+    
     - `replot 0.000000015*((x - 100)**3)`
+    ![graph2](https://user-images.githubusercontent.com/34668695/58796780-2dbb0580-8639-11e9-9781-10eccb2f4a6c.png)
   
