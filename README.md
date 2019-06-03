@@ -22,5 +22,5 @@
     ![graph](https://user-images.githubusercontent.com/34668695/58796707-fd736700-8638-11e9-8811-690da2e14a03.png)
     
     - `replot 0.000000015*((x - 100)**3)`
-    ![graph2](https://user-images.githubusercontent.com/34668695/58796780-2dbb0580-8639-11e9-9781-10eccb2f4a6c.png)
+    ![graph2](https://user-images.githubusercontent.com/34668695/58797169-437cfa80-863a-11e9-88df-6cb87cb05953.png)
   
