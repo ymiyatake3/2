@@ -11,6 +11,7 @@
 ### Data Visualization
 
 - __data.txt__ is the result of the __MatrixImpl.run()__.
+    - There are 10 times * 100 size of N (from 100 to 1000, with step 10) datas in the file. Each data has N and the execution time.
 
 - I have plotted the datas to a graph using __gnuplot__.
     - `set xrange [100:1000]`
