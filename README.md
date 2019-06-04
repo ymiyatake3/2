@@ -22,7 +22,7 @@
     - `plot "data.txt" using 1:2 with points`
     ![graph](https://user-images.githubusercontent.com/34668695/58796707-fd736700-8638-11e9-8811-690da2e14a03.png)
     
-    - The multiplication of matrix with size N has O(N^3) computational complexity, so it is approximate to k * (x^3) graph (k is a constant value).
+- The multiplication of matrix with size N has O(N^3) computational complexity, so it is approximate to k * (x^3) graph (k is a constant value).
     - `replot 0.00000001*(x**3)`
     ![graph2](https://user-images.githubusercontent.com/34668695/58797169-437cfa80-863a-11e9-88df-6cb87cb05953.png)
   
