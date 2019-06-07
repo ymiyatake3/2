@@ -1,4 +1,4 @@
-// Some parts were copied from
+// Original code
 // https://github.com/xharaken/step2015/blob/master/Matrix.java
 
 class Matrix {

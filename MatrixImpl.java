@@ -1,11 +1,10 @@
-// Some parts were copied from
+// Original code
 // https://github.com/xharaken/step2015/blob/master/Matrix.java
 
 import java.io.IOException;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.BufferedWriter;
-
 
 import java.lang.Exception;
 
