@@ -5,20 +5,24 @@ class Matrix {
 
     public static void main(String args[]) {
 
-        MatrixImpl impl = new MatrixImpl();
 
-        // For a test.
-        if (args.length != 1) {
-            System.out.println("usage: java Matrix N");
+        if (args.length < 1 || !(args[0].equals("test") || args[0].equals("run"))) {
+            System.out.println(args[0]);
+            System.out.println(args.length);
+            System.out.println("usage: 'java Matrix test N' or 'java Matrix run'");
             return;
         }
 
-        impl.test(Integer.parseInt(args[0]));
+        MatrixImpl impl = new MatrixImpl();
 
-
-        // For recording the result to a file.
-        // Calculate 100 * 100 times automatically.
-        //impl.run();
+        if (args[0].charAt(0) == 't') {
+            // For a test
+            impl.test(Integer.parseInt(args[1]));
+        } else {
+            // For recording the result to a file.
+            // Calculate 10 * 100 times automatically.
+            impl.run();
+        }
 
     }
 }
