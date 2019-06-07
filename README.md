@@ -3,8 +3,10 @@
 ### How to Use
 
 - This is the code for square matrix multiplication.
-- You can execute in your console. Please input like `java Matrix N`.
+- You can execute in your console. Please input like `java Matrix test N` or `java Matrix run`.
 - `N` is the size of a square matrix.
+- In `test` mode, it calculates only once.
+- In `run` mode, it calculates 1000 times automatically. 
 - The execution time and sum of the all values in the result matrix will be shown.
 
 ***
