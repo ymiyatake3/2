@@ -69,6 +69,7 @@ class MatrixImpl {
 
                         printTime(time);
                     }
+                    printSum(n);
                 }
                 bw.close();
             }
